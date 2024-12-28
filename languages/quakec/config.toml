@@ -1,0 +1,10 @@
+name = "QuakeC"
+grammar = "quakec"
+path_suffixes = ["qc"]
+line_comments = ["// "]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = false },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false },
+]
