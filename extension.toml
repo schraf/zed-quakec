@@ -1,6 +1,6 @@
-id = "zed-quakec"
+id = "quakec"
 name = "QuakeC"
-version = "0.0.1"
+version = "0.0.2"
 schema_version = 1
 authors = ["Marc Schraffenberger <marc@schraffenberger.com>"]
 description = "Zed language support for the QuakeC language"
